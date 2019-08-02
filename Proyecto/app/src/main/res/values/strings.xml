@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">EducaNotas</string>
+    <string name="action_settings">Configuracion</string>
+
+    <!--Menu-->
+    <string name="menu_Principal">Principal</string>
+    <string name="menu_Cursos">Cursos</string>
+    <string name="menu_Seccion">Secciones</string>
+    <string name="menu_Alumno">Alumnos</string>
+    <string name="menu_Desconectado">Desconectar</string>
+    <string name="menu_Salir">Salir</string>
+
+    <!--Globales-->
+    <string name="titulo_Docente">Docente:</string>
+    <string name="titulo_Modalidad">Modalidad:</string>
+    <string name="titulo_Ciclo">Ciclo:</string>
+    <string name="titulo_Profesor">Profesor:</string>
+    <string name="titulo_Seccion">Seccion:</string>
+    <string name="titulo_Grupo">Grupo:</string>
+    <string name="titulo_Tipo_Prueba">Tipo Prueba:</string>
+    <string name="titulo_Prueba">Prueba:</string>
+    <string name="titulo_Curso">Curso:</string>
+    <string name="titulo_Total_Alumnos">Total de Alumnos</string>
+
+    <!--Mantenimiento Acciones-->
+    <string name="man_Guardar">Guardar</string>
+    <string name="man_Eliminar">Eliminar</string>
+    <string name="man_Registrar">Registrar</string>
+
+    <!--Validaciones -->
+    <string name="login_valUsuario">Usuario Obligatorio</string>
+    <string name="login_valPassword">Password Obligatorio</string>
+    <string name="campo_obligatorio">Campo Obligatorio</string>
+
+    <!--Mensaje -->
+    <string name="msg_invalido">Usuario o Password Invalido</string>
+    <string name="msg_registra">Registro Correctamente</string>
+    <string name="msg_actualizar">Actualizado Correctamente</string>
+    <string name="msg_error">Error al Guardar</string>
+
+    <!-- Actividad Login -->
+    <string name="titulo_activity_login">Login</string>
+    <string name="login_txtUsuario">Usuario</string>
+    <string name="login_txtPassword">Password</string>
+    <string name="login_btnEntrar">Entrar</string>
+    <string name="login_ckbConectar">Mantener Conectado</string>
+
+    <!--Actividad Principal -->
+    <string name="main_Bienvenida">Bienvenido:</string>
+    <string name="main_btnImportaNota">Importar Notas</string>
+    <string name="main_btnExportaNota">Exportar Notas</string>
+    <string name="main_btnRegistraNota">Registrar Notas</string>
+
+    <!--Actividad Importar Notas-->
+    <string name="titulo_activity_importar_notas">Importar Notas</string>
+    <string name="imp_btnImportar">Importar</string>
+
+    <!--Actividad Registrar Notas-->
+    <string name="titulo_activity_registrar_notas">Registrar Notas</string>
+    <string name="reg_btnConsultar">Consultar</string>
+
+    <!--Actividad Consolidado de Notas-->
+    <string name="titulo_activity_consolodidado_notas">Consolidado Notas</string>
+    <string name="con_btnConfirmar">Confirmar</string>
+
+    <!--Actividad Resultado Alumnos-->
+    <string name="titulo_activity_listado_alumnos">Listado Alumnos Notas</string>
+    <string name="res_txtAlumno">Alumno</string>
+    <string name="res_txtNombreApe">Nombre y Apellidos</string>
+    <string name="res_txtEstadoMatricula">Estado de Matricula</string>
+    <string name="res_txtNota">Nota</string>
+    <string name="res_txtEstadisticaNotas">Estadistica de Notas</string>
+    <string name="res_txtSumaNota">Suma de Notas</string>
+    <string name="res_txtPromedioNotas">Promedio de Notas</string>
+    <string name="res_txtNotaMaxima">Nota Maxima</string>
+    <string name="res_txtNotaMinima">Nota Minima</string>
+    <string name="res_txtNumAprobados">Numero de Aprobados</string>
+    <string name="res_txtNumDesaprobados">Numero de Desaprobados</string>
+    <string name="res_txtConfirmar">Confirmar</string>
+    <string name="res_txtRegresar">Regresar</string>
+
+    <!--Exportar Notas-->
+    <string name="titulo_activity_exportar_notas">Exportar Notas</string>
+    <string name="exp_btnExportar">Exportar</string>
+
+    <!--Alumno-->
+    <string name="titulo_activity_listado_alumno">Listado de Alumnos</string>
+    <string name="titulo_activity_crud_alumno">Registro de Alumno</string>
+    <string name="alumno_txtNombre">Nombre Alumno</string>
+    <string name="alumno_txtApellidos">Apellido Alumno</string>
+    <string name="alumno_txtFechaNac">Fecha de Nacimiento</string>
+    <string name="alumno_spnSeccion">Seccion</string>
+
+    <!--Curso-->
+    <string name="titulo_activity_listado_cursos">Listado de Cursos</string>
+    <string name="titulo_activity_crud_curso">Registro de Cursos</string>
+    <string name="curso_txtNombre">Nombre Curso</string>
+
+    <!--Ciclo-->
+    <string name="titulo_activity_listado_ciclo">Listado de Ciclos</string>
+    <string name="titulo_activity_crud_ciclo">Registro de Ciclos</string>
+    <string name="ciclo_txtNombre">Nombre Ciclo</string>
+
+    <!--Seccion-->
+    <string name="titulo_activity_listado_seccion">Listado de Seccion</string>
+    <string name="titulo_activity_crud_seccion">Registro de Seccion</string>
+    <string name="seccion_txtNombre">Nombre Seccion</string>
+
+    <!--Curso-Alumno-->
+    <string name="titulo_activity_listado_alumno_cursos">Cursos Asignados</string>
+
+    <!--Usuario -->
+    <string name="titulo_activity_crud_usuario">Registro de Usuarios</string>
+    <string name="usuario_txtNombre">Nombres</string>
+    <string name="usuario_txtApellidoP">Apellido Paterno</string>
+    <string name="usuario_txtApellidoM">Apellido Materno</string>
+    <string name="usuario_txtLogin">Login</string>
+    <string name="usuario_txtPassword">Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

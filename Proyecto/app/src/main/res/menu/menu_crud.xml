@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_menu_guardar"
+        android:title="@string/man_Guardar"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_save"
+        app:showAsAction="ifRoom|withText" />
+
+    <item android:id="@+id/action_menu_salir"
+        android:title="@string/menu_Salir"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>

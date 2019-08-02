@@ -1,0 +1,256 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_res_alumnos"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:weightSum="6"
+        android:layout_height="100dp"
+        android:id="@+id/sv_alumnos_notas"
+        android:touchscreenBlocksFocus="false">
+
+            <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/tb_resultado_alumno"
+            android:touchscreenBlocksFocus="false"    >
+            </TableLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/titulo_Total_Alumnos"
+            android:layout_weight="1.02"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@android:color/holo_orange_light" />
+
+        <EditText
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txtTotalAlumno_res"
+            android:background="#ffffffff"
+            android:gravity="center_vertical|center_horizontal"
+            android:enabled="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/res_txtEstadisticaNotas"
+            android:layout_weight="0.26"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@android:color/holo_orange_light"
+            android:textSize="@dimen/activity_horizontal_margin" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/res_txtSumaNota"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_weight="1.02"
+            android:background="@android:color/holo_orange_light"
+            android:textSize="@dimen/activity_horizontal_margin" />
+
+        <EditText
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/txtSumaNota_res"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@android:color/white"
+            android:textSize="@dimen/activity_horizontal_margin"
+            android:enabled="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/res_txtPromedioNotas"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_weight="1.02"
+            android:background="@android:color/holo_orange_light"
+            android:textSize="@dimen/activity_horizontal_margin" />
+
+        <EditText
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/txtPromedioNota_res"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@android:color/white"
+            android:textSize="@dimen/activity_horizontal_margin"
+            android:enabled="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/res_txtNotaMaxima"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_weight="1.02"
+            android:background="@android:color/holo_orange_light"
+            android:textSize="@dimen/activity_horizontal_margin" />
+
+        <EditText
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/txtMaximaNota_res"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@android:color/white"
+            android:textSize="@dimen/activity_horizontal_margin"
+            android:enabled="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/res_txtNotaMinima"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_weight="1.02"
+            android:background="@android:color/holo_orange_light"
+            android:textSize="@dimen/activity_horizontal_margin" />
+
+        <EditText
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/txtMinimaNota_res"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@android:color/white"
+            android:textSize="@dimen/activity_horizontal_margin"
+            android:enabled="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/res_txtNumAprobados"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_weight="1.02"
+            android:background="@android:color/holo_orange_light"
+            android:textSize="@dimen/activity_horizontal_margin" />
+
+        <EditText
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/txtAprobados_res"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@android:color/white"
+            android:textSize="@dimen/activity_horizontal_margin"
+            android:enabled="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/res_txtNumDesaprobados"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_weight="1.02"
+            android:background="@android:color/holo_orange_light"
+            android:textSize="@dimen/activity_horizontal_margin" />
+
+        <EditText
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/txtDesaprobados_res"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@android:color/white"
+            android:textSize="@dimen/activity_horizontal_margin"
+            android:enabled="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/res_txtConfirmar"
+            android:id="@+id/btnConfirmar_res"
+            style="@style/Button_Acciones"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/res_txtRegresar"
+
+            android:id="@+id/btnRegresar_res"
+            style="@style/Button_Acciones"/>
+    </LinearLayout>
+
+</LinearLayout>

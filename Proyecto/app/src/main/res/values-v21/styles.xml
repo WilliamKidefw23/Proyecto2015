@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="Theme.Proyecto" parent="Base.AppTheme">
+    </style>
+
+    <style name="Theme.ConNavigationDrawer" parent="Base.AppTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Button_Acciones">
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">88dip</item>
+        <item name="android:fontFamily">@string/font_fontFamily_medium</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:height">36dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:backgroundTint">@color/color_button</item>
+    </style>
+
+</resources>

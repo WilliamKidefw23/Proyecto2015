@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--fondo view-->
+    <color name="window_background">#ffffff</color>
+
+    <color name="primaryDarkColor">#323232</color>
+    <color name="primaryColor">#484848</color>
+    <color name="accentColor">#F87652</color>
+
+    <!--Fondo-->
+    <color name="color_fondo">#212121</color>
+    <!--ToolBar-->
+    <color name="color_toolbar">#009688</color>
+    <!--View-->
+    <color name="color_view">#9FA8DA</color>
+
+    <!--Button-->
+    <color name="color_button">#00BCD4</color>
+
+</resources>
